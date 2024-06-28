@@ -1,3 +1,8 @@
+/*
+you have to define function with name COMPARE_TYPENAME for 
+your preferred type
+*/
+
 // Macro to define basic arithmetic operations for a type
 #define DEFINE_OPERATIONS(TYPE) \
     TYPE add_##TYPE(TYPE a, TYPE b) { return a + b; } \
